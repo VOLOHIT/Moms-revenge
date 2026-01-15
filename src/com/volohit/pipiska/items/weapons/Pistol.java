@@ -1,8 +1,8 @@
 package com.volohit.pipiska.items.weapons;
 
 public class Pistol extends Weapon{
-    public Pistol(int damage, int ammo, int id) {
-        super(damage, ammo, id);
+    public Pistol(String name, int damage, int ammo, int id) {
+        super(name, damage, ammo, id);
     }
     @Override
     public void shoot() {

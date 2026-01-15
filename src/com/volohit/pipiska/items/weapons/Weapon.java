@@ -1,14 +1,16 @@
 package com.volohit.pipiska.items.weapons;
 
+import com.volohit.pipiska.items.Inventory;
+
 public class Weapon {
     protected int damage;
-    protected int ammo;
-    public int id;
+    protected int ammo;;
 
-    public Weapon(int damage, int ammo, int id) {
+    public Weapon(String name, int damage, int ammo, int id) {
         this.damage = damage;
+        Inventory.name = name;
         this.ammo = ammo;
-        this.id = id;
+        Inventory.id = id;
     }
 
     public Weapon() {
