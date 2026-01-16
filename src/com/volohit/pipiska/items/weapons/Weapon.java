@@ -6,9 +6,8 @@ public class Weapon {
     protected int damage;
     protected int ammo;;
 
-    public Weapon(String name, int damage, int ammo, int id) {
+    public Weapon(int damage, int ammo, int id) {
         this.damage = damage;
-        Inventory.name = name;
         this.ammo = ammo;
         Inventory.id = id;
     }
